@@ -1,0 +1,34 @@
+.grid {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.square {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  color: white;
+}
+
+.square--player {
+  background-color: green;
+}
+
+.square--unknown {
+  background-color: gray;
+}
+
+.square--obs {
+  background-color: red;
+}
+
+.square--goal {
+  background-color: gold;
+}
